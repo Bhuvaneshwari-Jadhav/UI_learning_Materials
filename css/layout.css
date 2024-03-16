@@ -1,0 +1,82 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.wrapper
+{
+  width: 80%;
+  min-height: 100px;
+  border: 1px solid black;
+  margin: auto;
+}
+.wrapper .head
+{
+  width: 100%;
+  min-height: 100px;
+  border: 1px solid black;
+  background-color: rgb(51, 37, 37);
+  padding: 5px;
+  color: white;
+}
+.wrapper .logo-menu
+{
+  width: 100%;
+  min-height: 70px;
+  border: 1px solid black;
+  background-color: rgb(174, 121, 121);
+}
+.logo-menu .logo
+{
+  width: 70%;
+  float: left;
+  padding: 20px;
+  /* min-height: 100px; */
+  /* background-color: rgb(90, 90, 122); */
+  color: white;
+}
+.logo-menu .menu 
+{
+  width: 29%;
+  float: right;
+  /* min-height: 100px; */
+  /* background-color: rgb(140, 102, 176); */
+  padding: 20px;
+}
+.logo a
+{
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+.con-slide
+{
+  width: 100%;
+  min-height: 100px;
+  margin-top: 10px;
+}
+.con-slide .con 
+{
+  float: left;
+  border: 1px solid black;
+  width: 70%;
+  margin: 10px;
+}
+.con .main
+{
+  padding: 10px;
+  border: 1px solid black;
+}
+.con .h1 
+{
+  float: left;
+  width: 45%;
+  border: 1px solid black;
+}
+.con-slide .slide
+{
+  width: 28%;
+  float: right;
+  border: 1px solid black;
+}
